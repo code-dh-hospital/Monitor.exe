@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0226.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32502260-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32502260-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32502260-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu: Gọi bệnh vào phòng khám và hiển thị thêm thông tin đối với bệnh nhân ưu tiên
+![](https://i.imgur.com/xewD7i6.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/38
+
 ## [v.3.25.0122.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32501220-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32501220-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32501220-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Sử dụng chức năng kiểm tra chức năng riêng để mở chức năng theo yêu cầu: `OTH.Adapter.Common.HisPrivateCode.MabvIsUsePrivateCodeBy` với key là `dhkios`
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/31
