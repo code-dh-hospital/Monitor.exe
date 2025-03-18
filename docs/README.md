@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0318.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32503180-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32503180-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32503180-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - BV Trà Cú: Phần mềm Monitor không trình chiếu clip ra màn hình TV sau thời gian chờ được cấu hình
+![](https://i.imgur.com/W9hKc3e.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/142
+
 ## [v.3.25.0227.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32502270-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32502270-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32502270-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu: Gọi bệnh vào phòng khám và hiển thị thêm thông tin đối với bệnh nhân ưu tiên
 - 🐛: Bổ sung chuỗi (Ưu tiên) phía sau tên bệnh nhân đối với bệnh nhân ưu tiên tại danh sách phòng khám
