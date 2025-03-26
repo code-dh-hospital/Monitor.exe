@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0326.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32503260-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32503260-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32503260-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu: Monitor hiển thị thông tin bệnh nhân tại phòng khám bỏ cột Tuổi.
+- ✨: Tại phòng khám Bác sĩ: Bác sĩ khám bệnh nhân nào thì trên Monitor hiển thị bệnh nhân đó ở trạng thái đang khám. Hiện tại đang lấy bệnh nhân đang khám+1 nên đơn vị không chịu.
+![](https://i.imgur.com/nVF3wmt.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/129
+
 ## [v.3.25.0319.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32503190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32503190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32503190-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - BV Trà Cú: Phần mềm Monitor không trình chiếu clip ra màn hình TV sau thời gian chờ được cấu hình
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/142
