@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0513.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32505130-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32505130-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32505130-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu: Tùy chỉnh giao diện KIOS Ordinal, Monitor, Speaker(Gọi bệnh) TTYT huyện Châu Thành - Đồng Tháp
+- ✨: Thêm cấu hình màu tiêu đề.
+![](https://i.imgur.com/cpj4Pjo.gif)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/197
+
 ## [v.3.25.0418.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32504180-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32504180-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32504180-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Monitor: Không cập nhật được chức năng check chọn Nhân bệnh
 ![](https://i.imgur.com/ujOwYeZ.png)
