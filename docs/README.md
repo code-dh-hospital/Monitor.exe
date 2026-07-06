@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0706.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32607060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32607060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32607060-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Monitor chỉnh lại tên Bệnh viện Gò Vấp #806
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/806
+- 📕: Hiện tại các form monitor sử dụng tại BV Gò Vấp đang bắt theo riêng và gán cứng tên bệnh viện
+- Chỉnh sửa lại lấy tên bệnh viện theo key
+![](https://i.vgy.me/4uKmWi.png)
+
 ## [v.3.25.0930.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32509300-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32509300-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32509300-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Monitor: Bổ sung cấu hình chọn phân khu cho quầy tiếp nhận
 ![](https://i.vgy.me/6PAEVQ.png)
