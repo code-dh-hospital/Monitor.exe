@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0716.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32607162-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32607162-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32607162-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Monitor chỉnh lại tên Bệnh viện Gò Vấp #806 (không tải được nên push lại)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/806
+- 📕: Hiện tại các form monitor sử dụng tại BV Gò Vấp đang bắt theo riêng và gán cứng tên bệnh viện
+- Chỉnh sửa lại lấy tên bệnh viện theo key
+![](https://i.vgy.me/4uKmWi.png)
+
 ## [v.3.26.0716.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32607161-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32607161-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32607161-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Monitor chỉnh lại tên Bệnh viện Gò Vấp #806 (không tải được nên push lại)
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/806
