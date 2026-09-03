@@ -6,6 +6,21 @@
 
 #
 
+## [v.3.26.0903.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32609030-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32609030-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32609030-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Thực hiện theo mô tả [THAM_SO_HE_THONG
+  /Hau-mota-them-thamso-cauhinh_phong_cls.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THAM_SO_HE_THONG/Hau-mota-them-thamso-cauhinh_phong_cls.md)
+- ✨: Mở chức năng hiển thị hàng chờ Tivi Cận lâm sàng (optCLS) trên FrmMainV2 và FrmShow_OMon_CDHA, tự động khởi động FrmMainV2 khi bật tham số cauhinh_phong_cls = 1.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/903
+  https://i.dh-his.com/hdhiswork/YEUCAU/issues/886
+- 📗: Đọc dữ liệu hàng chờ gọi bệnh nhân từ current.pscls_lcd, nạp danh sách phòng từ current.cauhinhmay và current.dmphong_cls.
+- 📕: Chạy Monitor.exe trên PC kết nối Tivi phòng CLS (Extend screen), chọn Cận lâm sàng -> Chọn phòng CLS -> Bấm [Hiển thị] để chiếu danh sách gọi bệnh nhân và video truyền thông.
+  ![](https://images-worker.tlt36.workers.dev/i/01a06633-b4e8-7682-91b3-1965c27c14fa)
+  ![](https://images-worker.tlt26.workers.dev/i/01a06630-e46b-788d-95bf-daa43345ddc0)
+  ![](https://images-worker.tlt34.workers.dev/i/01a06638-20a8-7a50-a75c-cf82caa80003)
+  ![](https://images-worker.tlt43.workers.dev/i/01a0663e-51a3-7023-a271-d9540ce0e432)
+  ![](https://images-worker.tlt41.workers.dev/i/01a0663d-9378-7656-ae22-bcaa5f265be7)
+  ![](https://images-worker.tlt44.workers.dev/i/01a06641-5b79-7e58-94ce-8fb5a6055414)
+
 ## [v.3.26.0716.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32607162-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32607162-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32607162-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Monitor chỉnh lại tên Bệnh viện Gò Vấp #806 (không tải được nên push lại)
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/806
