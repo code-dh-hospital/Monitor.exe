@@ -6,6 +6,22 @@
 
 #
 
+## [v.3.26.0903.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32609032-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32609032-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32609032-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [Monitor & OTH.Entity, OTH.Adapter, OTH.XForms.v.1.0] Xây dựng và nâng cấp hệ thống Màn hình Tivi Cận lâm sàng động (FrmShow_OMon_CDHA):
+  - Tự động kích hoạt nút [⚙ Cấu hình TV CLS] (btnOptionCLS) khi chọn phân hệ Cận lâm sàng (optCLS).
+  - Hỗ trợ cấu hình tên phòng hiển thị theo combo phòng CLS trên màn hình chính (chọn giữa: Tên phòng danh mục, Text riêng tùy chỉnh, hoặc Tên khoa mặc định).
+  - Nạp động giao diện Tivi theo thời gian thực (Tiêu đề, Màu nền Header, Màu chữ, Cỡ chữ, Logo Base64, Chiều cao Header).
+  - Tùy biến chuỗi trạng thái Đang gọi / Chờ theo từng phòng và hiển thị nổi bật dòng bệnh nhân đang gọi.
+  - Tích hợp Dải băng chữ chạy thông báo chân trang (Marquee Ticker Banner) cuộn chữ mượt mà.
+  - Hỗ trợ 3 chế độ bố cục: Toàn màn hình danh sách, Luân phiên video khi nhàn rỗi, và Chia đôi màn hình song song (Split Screen 60/40) giữa danh sách chờ và video truyền thông.
+  - Thêm nút bấm [🖥 Mở Form Tivi xem thử (Nhấn Esc để đóng)] kích thước chuẩn kèm nhãn phím tắt thoát (ESC, Alt+F4, nút [✕ Đóng (Esc)], menu chuột phải).
+  - Bổ sung khối nhãn hướng dẫn quy chuẩn đường dẫn video chung vs riêng và lưu ý đồng nhất file trên các máy trạm.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/903
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/886
+- 📗: Đọc và ghi nhận dữ liệu cấu hình JSON qua bảng current.coderun (code = 'monitor_cls_tv_option'). Nạp danh sách phòng từ current.cauhinhmay và current.dmphong_cls.
+- 📕: Trên màn hình Monitor.FrmMainV2, chọn phân hệ "Cận lâm sàng", chọn phòng CLS tương ứng rồi nhấp nút [⚙ Cấu hình TV CLS] để thiết lập giao diện và mở xem thử bằng nút [🖥 Mở Form Tivi xem thử]. Hoặc nhấp chuột phải / nhấn Ctrl+Shift+O ngay trên màn hình Tivi để cấu hình.
+  ![](https://images-worker.tlt32.workers.dev/i/01a06699-0d46-75a0-8284-4bf59456874f)
+
 ## [v.3.26.0903.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32609031-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32609031-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32609031-NasDHSolutions.json)</sup></sup></sub>
 ﻿- ✨: [Monitor & OTH.Entity, OTH.Adapter, OTH.XForms.v.1.0] Xây dựng và nâng cấp hệ thống Màn hình Tivi Cận lâm sàng động (FrmShow_OMon_CDHA):
   - Tự động kích hoạt nút [⚙ Cấu hình TV CLS] (btnOptionCLS) khi chọn phân hệ Cận lâm sàng (optCLS).
