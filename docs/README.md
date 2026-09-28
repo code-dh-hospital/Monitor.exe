@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.26.0928.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32609280-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32609280-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32609280-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [Monitor & OTH.Entity, OTH.XForms] Đọc trạng thái DANG_THUC_HIEN từ current.pscls_lcd trên màn hình Monitor Tivi CLS; nạp chuỗi text trạng thái động từ EMonitorClsOption (current.coderun code monitor_cls_tv_option); highlight dòng đang thực hiện màu cam/vàng nổi bật
+- 🐛: Đồng bộ trạng thái thực tế phục vụ bệnh nhân tại phòng XN/CĐHA ra màn hình Tivi điều phối ngoài cửa phòng
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/938
+- 📗: current.pscls_lcd (trangthai)
+- 📕: Giao diện FrmShow_OMon_CDHA, FrmMain_Omon, FrmShow_PhuSanCT_CDHA, FrmMain_PhuSanCT
+- Thực hiện theo mô tả [Cập nhật việc hiển thị danh sách bệnh nhân tại phòng Xét nghiệm và Chẩn đoán hình ảnh trên Monitor Tivi](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CHANDOANHINHANH/Mo-ta-cap-nhat-hien-thi-danh-sach-benh-nhan-phong-xet-nghiem-va-cdha-tren-monitor-tivi.md)
+
+![](https://images-worker.tlt43.workers.dev/i/01a0e6b2-a8bc-7f24-80e2-cc7bb37abcd6)
+![](https://images-worker.tlt44.workers.dev/i/01a0e6b2-d4a8-7a89-a2e5-e13c007f386d)
+![](https://images-worker.tlt31.workers.dev/i/01a0e6cd-2ed7-708c-ab96-9cd88f7d7e62)
+
 ## [v.3.26.0903.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32609032-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32609032-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32609032-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [Monitor & OTH.Entity, OTH.Adapter, OTH.XForms.v.1.0] Xây dựng và nâng cấp hệ thống Màn hình Tivi Cận lâm sàng động (FrmShow_OMon_CDHA):
   - Tự động kích hoạt nút [⚙ Cấu hình TV CLS] (btnOptionCLS) khi chọn phân hệ Cận lâm sàng (optCLS).
