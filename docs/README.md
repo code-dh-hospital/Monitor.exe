@@ -6,6 +6,42 @@
 
 #
 
+## [v.3.26.1007.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32610071-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32610071-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32610071-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Chuẩn hóa 6 forms hiển thị gọi số/màn hình hàng đợi (`FrmMain_GoVap2.cs`, `FrmMain_NhiDong.cs`, `FrmMain_Omon.cs`, `FrmShow_NB_GoVap.cs`, `FrmShow_NB_NhiDong.cs`, `FrmShow_NB_OMon.cs`) sang dùng `OTH.Common.ClsSqlOidHelper.CastOid()`.
+- 🐛: Khắc phục triệt để lỗi tràn số Int32 khi nạp danh sách bệnh nhân chờ gọi số tại các phân hệ màn hình Monitor khi số lượng bản ghi bảng hàng đợi vượt ngưỡng 2 tỷ bản ghi.
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/161
+- 📗: Bảng `current.dmbenhnhan_hangdoi` truy vấn cột `oid` dạng `CAST(oid AS bigint) AS oid`.
+- 📕: Phân hệ Màn hình Monitor hàng đợi gọi số bệnh nhân - Đảm bảo nạp dữ liệu màn hình liên tục không bị gián đoạn do lỗi OverflowException. Chi tiết: [Mo-ta-chuan-hoa-cast-oid-sang-bigint-toan-he-thong.md](../../Mo-ta-he-thong/PGDATABASE/Mo-ta-chuan-hoa-cast-oid-sang-bigint-toan-he-thong.md)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-fees-chuan-hoa-cast-oid-direct.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-fees-chuan-hoa-cast-oid-fullflow.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-medicine-check-ton-cuoi.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-medicine-check-trung-lo.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-monitor-goi-so.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-admin-xfrmeditchungtu-chung-tu-vtyt.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-admin-xfrmeditchungtu-chung-tu.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-admin-xfrmmau192021-mau-21.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-bhxh-frmbctonghop-ngoaitru-mau21.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-bhxh-xfrmbkxuatxml4750-thuoc-bhyt.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-cls-chidinhcls-xet-nghiem.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-fees-bang-ke-bien-lai.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-fees-chi-tiet-hoa-don-thu-phi.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-fees-dong-bo-hoa-don-1.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-fees-dong-bo-hoa-don-2.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-list-frmdanhmuc-dmdoituong.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-list-frmdanhmuc-dmphankhu.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-medicine-frmchecktoncuoi-ton-cuoi.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-medicine-frmchecktrunglo-trung-lo.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-medicine-frmtkthekho-the-kho-duoc.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-prescription-frmcanlamsang-chi-dinh-cls.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-prescription-frmratoa-toa-thuoc.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-printer-frminphieukcb-kcb-ngoaitru.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-printer-frmketoa-ke-toa-tong-hop.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-printer-frmphucvu-phuc-vu.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-printer-frmxacnhan-xac-nhan-toa-thuoc.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-secondstore-frmtkthekhotutruc-tu-truc.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-treatment-chungtu-noi-tru.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-treatment-thtoant-du-tru.png)
+
 ## [v.3.26.1007.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32610070-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32610070-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FMonitorexe%2F32610070-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Tích hợp chuẩn hóa giao diện bản quyền DH.HIS Monitor (Màn hình hàng đợi & Monitor TV) khi kích hoạt DHHIS_BANQUYEN
 - 🐛: Đồng bộ nhận diện thương hiệu DH.HIS, thanh trạng thái 4 ô logoDH và tiêu đề Form Home
